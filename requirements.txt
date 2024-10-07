@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+langchain
+openai
+faiss-cpu
+pydantic==1.10.11
+beautifulsoup4
