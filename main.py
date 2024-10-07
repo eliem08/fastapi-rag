@@ -79,3 +79,9 @@ async def query(request: QueryRequest):
         return QueryResponse(answer=answer, sources=sources)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+import uvicorn
+
+if __name__ == '__main__':
+    import uvicorn
+    uvicorn.run(app)
