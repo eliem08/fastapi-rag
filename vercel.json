@@ -5,8 +5,7 @@
       "src": "main.py",
       "use": "@vercel/python",
       "config": {
-        "memory": 1024,
-        "maxDuration": 10
+        "maxLambdaSize": "50mb"
       }
     }
   ],
